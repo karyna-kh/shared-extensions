@@ -1,0 +1,26 @@
+ {                                                                                                                                                                                                                           
+    "services": [                                                                                                                                                                                                             
+      {
+        "serviceInfo": {
+          "integrationName": "AI Image Generator",
+          "integrationIcon": "https://cdn-icons-png.flaticon.com/512/4616/4616734.png",
+          "serviceName": "ai-image-generator",
+          "serviceId": "ai-image-generator-v1",
+          "hasServiceConfigs": false
+        },
+        "elements": [
+          {
+            "id": "ai-image-generator-generate",
+            "name": "generateImage",
+            "operationName": "Generate Image",
+            "registerAs": "ACTION",
+            "category": "AI Image Generator",
+            "description": "Generate an image from a text prompt",
+            "bodyParams": [
+              { "name": "prompt", "type": "STRING", "required": true, "description": "Text prompt" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
